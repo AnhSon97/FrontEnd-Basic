@@ -1,0 +1,10 @@
+<div style="margin-top: 80px;">
+  <h3 style="text-align: center;">Top4-Customer!</h3>
+  <div class="row">
+    <a *ngFor="let i of listCustomer" style="text-decoration: none;" routerLink="/ditails/{{i.id}}">
+      <div class="col">
+        <h4>{{i.FullName}}</h4>
+      </div>
+    </a>
+  </div>
+</div>
